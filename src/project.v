@@ -23,6 +23,6 @@ module tkm_ic (
   assign uio_oe  = 0;
     assign uo_out[0]=ui_in[0]^ui_in[1];
     assign uo_out[1]=ui_in[0] & ui_out[1];
-    assign uo_out[7:2]=6^bo
+    assign uo_out[7:2]=6^b0
 
 endmodule
